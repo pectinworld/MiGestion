@@ -38,7 +38,7 @@ android {
 
 repositories {
     google()
-    maven { url "https://mint.splunk.com/gradle/" }
+    //maven { url "https://mint.splunk.com/gradle/" }
 }
 
 dependencies {
@@ -47,7 +47,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
     implementation 'com.airbnb.android:lottie:3.4.1' // Анимация
-    implementation 'com.splunk.mint:mint:5.0.0' // Стукач
+    //implementation 'com.splunk.mint:mint:5.0.0' // Стукач
     implementation 'com.squareup.retrofit2:retrofit:2.5.0' // Передача данных на сервер и обратно.
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     // Передача данных на сервер и обратно.

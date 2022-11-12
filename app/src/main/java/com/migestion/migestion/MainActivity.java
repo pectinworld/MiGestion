@@ -32,7 +32,6 @@ import com.migestion.migestion.Model.Posts;
 import com.migestion.migestion.Servicio.DescargaDatosEquipos;
 import com.migestion.migestion.Servicio.DescargaDatosPuntos;
 import com.migestion.migestion.Servicio.LocationFragment;
-import com.splunk.mint.Mint;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -83,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Mint.initAndStartSession(this.getApplication(), "41156432");
+        //Mint.initAndStartSession(this.getApplication(), "41156432");
 
         datosPreferences = this.getSharedPreferences("com.websmithing.gpstracker.prefs", Context.MODE_PRIVATE);
         lottieEsperar = findViewById(R.id.esperar);
