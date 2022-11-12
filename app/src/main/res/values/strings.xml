@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">IBERO</string>
+    <string name="punto">Local</string>
+    <string name="equipo">Máquina</string>
+
+    <string name="baseUrl" translatable="false">http://migestion.tech/terminal</string>
+    <string name="baseUrlFoto" translatable="false">http://migestion.tech/foto/nuevoFotoUbicacion.php</string>
+</resources>
