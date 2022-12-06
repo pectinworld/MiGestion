@@ -203,6 +203,7 @@ public class NuevoPunto extends AppCompatActivity {
 
         timeLocal = date.getTime();
 
+        if (Inicio.coordenadasTime == null) Inicio.coordenadasTime = Long.valueOf(0);
         if (timeLocal - Inicio.coordenadasTime > 60000) {
             cklFalloGps++;
             Log.d(LOG, "cklFalloGps = " + cklFalloGps);

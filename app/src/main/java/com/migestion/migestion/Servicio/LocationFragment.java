@@ -19,12 +19,12 @@ public class LocationFragment extends Fragment implements LocationListener {
     private LocationManager mLocationManager;
 
     public LocationFragment() {
+        Log.i(LOG, "LocationFragment: ");
     }
 
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-
         mLocationManager = (LocationManager) activity.getSystemService(Context.LOCATION_SERVICE);
     }
 
@@ -32,7 +32,6 @@ public class LocationFragment extends Fragment implements LocationListener {
     @Override
     public void onResume() {
         super.onResume();
-
         Log.i(LOG, "onResume");
         mLocationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, this);
         mLocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
