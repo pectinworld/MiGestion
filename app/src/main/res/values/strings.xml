@@ -3,6 +3,6 @@
     <string name="punto">Local</string>
     <string name="equipo">Máquina</string>
 
-    <string name="baseUrl" translatable="false">http://migestion.tech/terminal</string>
-    <string name="baseUrlFoto" translatable="false">http://migestion.tech/foto/nuevoFotoUbicacion.php</string>
+    <string name="baseUrl" translatable="false">http://migestion.com.es/terminal</string>
+    <string name="baseUrlFoto" translatable="false">http://migestion.com.es/foto/nuevoFotoUbicacion.php</string>
 </resources>
